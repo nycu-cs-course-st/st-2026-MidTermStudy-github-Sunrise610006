@@ -1,5 +1,6 @@
 # Metamorphic Testing for HMAC-Signed URLs
 
+以下內容由 AI 整理。
 ## 1. Overview
 
 本專案為軟體測試課程的期中研究實作，主要研究 **Metamorphic Testing（MT）** 在 Web 安全測試中的應用，並參考論文 *Metamorphic Security Testing for Web Systems* 提出的 **Security Metamorphic Relation Language（SMRL）**。
