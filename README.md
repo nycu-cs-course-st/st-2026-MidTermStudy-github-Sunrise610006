@@ -206,7 +206,7 @@ Tests run: 1, Failures: 1
 
 ## 8. References
 
-- Mai, P. X., Pastore, F., Goknil, A., & Briand, L. (2020). *Metamorphic Security Testing for Web Systems*. IEEE ICST 2020.
+- P. X. Mai, F. Pastore, A. Goknil and L. Briand, "Metamorphic Security Testing for Web Systems," 2020 IEEE 13th International Conference on Software Testing, Validation and Verification (ICST), Porto, Portugal, 2020, pp. 186-197, doi: 10.1109/ICST46399.2020.00028.
 - SMRL Official Website: https://sntsvv.github.io/SMRL/
 - SMRL Eclipse Plugin: https://github.com/SNTSVV/SMRL_EclipsePlugin
 
