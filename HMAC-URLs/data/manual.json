@@ -1,0 +1,9 @@
+{
+    "path1": [
+        {
+            "url": "http://127.0.0.1:8000/download?file=A&sig=df00502059684dd6273b796399f732ea9c607730c91b88b564d54c7e57f6b5a4",
+            "eventType": "index",
+            "method": "get"
+        }
+    ]
+}

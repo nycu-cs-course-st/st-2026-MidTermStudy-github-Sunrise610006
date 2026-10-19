@@ -1,0 +1,27 @@
+import static smrl.mr.language.Operations.*;
+import smrl.mr.language.Action;
+
+package smrl.mr.hmac {
+
+    MR HmacResourceBinding {
+        {
+            for (Action action : Input(1).actions()) {
+                for (var par = 0; par < action.getParameters().size(); par++) {
+
+                    var pos = action.getPosition();
+
+                    IMPLIES(
+                        action.getParameterName(par).equals("file")
+                        && action.getParameterValue(par).equals("A")
+                        && !Output(Input(1), pos).isError()
+                        && EQUAL(Input(2), Input(1))
+                        && Input(2).actions().get(pos)
+                            .setParameterValue(par, "B"),
+
+                        Output(Input(2), pos).isError()
+                    );
+                }
+            }
+        }
+    }
+}

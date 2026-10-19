@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.epp.package.dsl.feature"
+      label="EPP DSL Feature"
+      version="4.16.0.20200615-1200"
+      provider-name="Eclipse Packaging Project"
+      plugin="org.eclipse.epp.package.dsl">
+
+   <description url="http://eclipse.org/epp">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+   <!--
+        All requirements to features and the content of the product are defined 
+        in the product configuration epp.product since Eclipse Neon. For further
+        details see the following bug:
+
+        Bug 332989 - Allow parts of a package to upgraded or removed
+        https://bugs.eclipse.org/bugs/show_bug.cgi?id=332989
+
+        Since the DSL package already moved some of the dependencies to the product
+        definition, no need to change anything here.
+     -->
+      <import feature="org.eclipse.sdk"/>
+      <import feature="org.eclipse.egit"/>
+      <import feature="org.eclipse.egit.import"/>
+      <import feature="org.eclipse.m2e.feature"/>
+      <import feature="org.eclipse.m2e.lemminx.feature"/>
+      <import feature="org.eclipse.m2e.logback.feature"/>
+      <import feature="org.eclipse.wst.xml_ui.feature"/>
+      <import feature="org.eclipse.buildship"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.epp.package.dsl"
+         download-size="172"
+         install-size="204"
+         version="4.16.0.20200615-1200"/>
+
+</feature>

@@ -1,0 +1,39 @@
+{
+    "SUT": "HMAC-Signed-URL",
+    "inputFile": "./data/manual.json",
+    "outputFile": "./results/hmacResults.txt",
+    "outputStore": "./results/outputStore",
+    "randomFilePathFile": "./data/paths.txt",
+    "randomAdminFilePathFile": "./data/paths.txt",
+    "loginURL": "",
+    "logoutURL": "",
+    "userParameter": "username",
+    "passwordParameter": "password",
+    "ignoreURLs": [],
+    "confirmationTexts": [],
+    "confirmationButtons": [],
+    "waitTimeAfterAction": 0,
+    "signup": {
+        "url": "",
+        "userParam": "",
+        "passwordParams": [],
+        "emailParam": "",
+        "others": []
+    },
+    "cleanUp": {
+        "class": [],
+        "script": [],
+        "attribute": {
+            "name": [],
+            "nameValue": []
+        },
+        "tag": [],
+        "id": []
+    },
+    "supervisedUser": {},
+    "errorSigns": {
+        "title": [
+            "Access Denied"
+        ]
+    }
+}

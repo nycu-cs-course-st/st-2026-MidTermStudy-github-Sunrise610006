@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.rcp.source" version="4.16.0.v20200604-0951" label="%featureName" provider-name="%providerName">
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.eclipse.rcp" version="4.16.0.v20200604-0951"/>
+  <includes id="org.eclipse.e4.rcp.source" version="4.16.0.v20200604-0951"/>
+  <plugin id="org.eclipse.help.source" version="3.8.800.v20200525-0755" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.ui.source" version="3.117.0.v20200518-1705" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.ui.workbench.source" version="3.119.0.v20200521-1247" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.update.configurator.source" version="3.4.600.v20200422-1910" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.ui.cocoa.source" version="1.2.400.v20191217-1850" download-size="0" install-size="0" os="macosx" ws="cocoa" unpack="false"/>
+</feature>

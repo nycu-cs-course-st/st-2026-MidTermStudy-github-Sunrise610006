@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.sdk"
+      label="%featureName"
+      version="4.16.0.v20200604-0951"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.platform"
+         version="4.16.0.v20200604-0951"/>
+
+   <includes
+         id="org.eclipse.platform.source"
+         version="4.16.0.v20200604-0951"/>
+
+   <includes
+         id="org.eclipse.jdt"
+         version="3.18.400.v20200604-0540"/>
+
+   <includes
+         id="org.eclipse.jdt.source"
+         version="3.18.400.v20200604-0540"/>
+
+   <includes
+         id="org.eclipse.pde"
+         version="3.14.400.v20200604-0540"/>
+
+   <includes
+         id="org.eclipse.pde.source"
+         version="3.14.400.v20200604-0540"/>
+
+   <includes
+         id="org.eclipse.help"
+         version="2.3.200.v20200604-0540"/>
+
+   <includes
+         id="org.eclipse.help.source"
+         version="2.3.200.v20200604-0540"/>
+
+   <requires>
+      <import feature="org.eclipse.emf.common.source" version="2.7.0" match="compatible"/>
+      <import feature="org.eclipse.emf.ecore.source" version="2.7.0" match="compatible"/>
+      <import feature="org.eclipse.ecf.core.feature.source" version="1.4.0" match="compatible"/>
+      <import feature="org.eclipse.ecf.core.ssl.feature.source" version="1.1.0" match="compatible"/>
+      <import feature="org.eclipse.ecf.filetransfer.feature.source" version="3.13.7" match="compatible"/>
+      <import feature="org.eclipse.ecf.filetransfer.httpclient45.feature.source" version="1.0.0" match="compatible"/>
+      <import feature="org.eclipse.ecf.filetransfer.ssl.feature.source" version="1.1.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.sdk"
+         download-size="170"
+         install-size="202"
+         version="4.16.0.v20200604-0540"/>
+
+</feature>

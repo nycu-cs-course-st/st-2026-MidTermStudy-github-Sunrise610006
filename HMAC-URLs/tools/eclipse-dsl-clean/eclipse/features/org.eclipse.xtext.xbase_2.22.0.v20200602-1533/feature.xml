@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.xtext.xbase"
+      label="%featureName"
+      version="2.22.0.v20200602-1533"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+   <license url="%licenseURL">
+      %license
+   </license>
+   <copyright>
+      Copyright (c) 2009, 2018 itemis AG (http://www.itemis.eu) and others.
+
+This program and the accompanying materials 
+are made available under the terms of the Eclipse Public License 2.0 
+which is available at http://www.eclipse.org/legal/epl-2.0.
+
+SPDX-License-Identifier: EPL-2.0
+   </copyright>
+
+   <includes
+         id="org.eclipse.xtext.xbase.lib"
+         version="2.22.0.v20200602-0715"/>
+
+   <plugin
+         id="org.eclipse.xtext.xbase"
+         download-size="2403"
+         install-size="6478"
+         version="2.22.0.v20200602-1114"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xbase.source"
+         download-size="1836"
+         install-size="8774"
+         version="2.22.0.v20200602-1114"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xbase.ui"
+         download-size="512"
+         install-size="1158"
+         version="2.22.0.v20200602-1242"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xbase.ui.source"
+         download-size="252"
+         install-size="815"
+         version="2.22.0.v20200602-1242"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xbase.ide"
+         download-size="585"
+         install-size="2625"
+         version="2.22.0.v20200602-1114"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xbase.ide.source"
+         download-size="410"
+         install-size="5655"
+         version="2.22.0.v20200602-1114"
+         unpack="false"/>
+
+</feature>
